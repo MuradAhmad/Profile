@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colormainYellow"
+
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+
+
+        >
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView"
+            android:layout_width="350dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:elevation="0dp"
+            android:layout_gravity="center"
+            app:cardBackgroundColor="@color/colorDarkYellow"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                >
+
+                <LinearLayout
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Skills"
+                        android:textStyle="bold"
+                        android:textSize="20sp">
+                    </TextView>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <GridLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center_horizontal"
+                android:columnCount="2"
+
+                >
+
+                <androidx.cardview.widget.CardView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+
+
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="20dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="5dp"
+
+                    >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:layout_margin="16dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/java"
+                            android:textSize="20sp"
+                            android:textStyle="bold"></TextView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="3+ years"
+                            android:textSize="12sp"
+                            android:textStyle="bold"></TextView>
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+
+                    app:cardBackgroundColor="@color/colorWhite"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="5dp"
+
+
+                    >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:layout_margin="16dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/c"
+                            android:textSize="20sp"
+                            android:textStyle="bold"></TextView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="2 years"
+                            android:textSize="12sp"
+                            android:textStyle="bold"></TextView>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:padding="30dp"
+                    app:cardBackgroundColor="@color/colorWhite"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="5dp"
+
+                    >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:layout_margin="16dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Objective-C"
+                            android:textSize="20sp"
+                            android:textStyle="bold"></TextView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="1.5 years"
+                            android:textSize="12sp"
+                            android:textStyle="bold"></TextView>
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:padding="30dp"
+
+
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="5dp"
+
+
+                    >
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:layout_margin="16dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Flutter/dart"
+                            android:textSize="20sp"
+                            android:textStyle="bold"></TextView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="3 months"
+                            android:textSize="12sp"
+                            android:textStyle="bold"></TextView>
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="20dp"
+
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:padding="30dp"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="5dp"
+
+                    >
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:layout_margin="16dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Android studio"
+                            android:textSize="20sp"
+                            android:textStyle="bold"></TextView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="2 years"
+                            android:textSize="12sp"
+                            android:textStyle="bold"></TextView>
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:padding="30dp"
+
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="5dp"
+
+
+                    >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:layout_margin="16dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="XCode"
+                            android:textSize="20sp"
+                            android:textStyle="bold"></TextView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="1.5 years"
+                            android:textSize="12sp"
+                            android:textStyle="bold"></TextView>
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="20dp"
+
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:padding="30dp"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="5dp"
+
+                    >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:layout_margin="16dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Mysql/Sqllite"
+                            android:textSize="20sp"
+                            android:textStyle="bold"></TextView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="3+ years"
+                            android:textSize="12sp"
+                            android:textStyle="bold"></TextView>
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginRight="20dp"
+
+                    android:layout_marginBottom="20dp"
+                    android:padding="30dp"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="5dp"
+
+                    >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:layout_margin="16dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Prototyping"
+                            android:textSize="20sp"
+                            android:textStyle="bold"></TextView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="3+ years"
+                            android:textSize="12sp"
+                            android:textStyle="bold"></TextView>
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="20dp"
+                    android:padding="30dp"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="5dp"
+
+
+                    >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:layout_margin="16dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Mockups"
+                            android:textSize="20sp"
+                            android:textStyle="bold"></TextView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="3+ years"
+                            android:textSize="12sp"
+                            android:textStyle="bold"></TextView>
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:padding="30dp"
+                    app:cardCornerRadius="12dp"
+
+                    app:cardElevation="5dp"
+
+                    >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:layout_margin="16dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="UI designing"
+                            android:textSize="20sp"
+                            android:textStyle="bold"></TextView>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+            </GridLayout>
+
+            <GridLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="20dp"
+                android:columnCount="1"
+                android:layout_marginTop="20dp"
+
+                >
+
+
+                <androidx.cardview.widget.CardView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="20dp"
+
+                    android:layout_marginBottom="20dp"
+                    android:padding="30dp"
+
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="5dp"
+
+                    >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:layout_margin="16dp"
+                        android:layout_weight="1"
+
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="HTML / CSS / Javascript"
+                            android:textSize="20sp"
+                            android:textStyle="bold"></TextView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="1 year"
+                            android:textSize="12sp"
+                            android:textStyle="bold"></TextView>
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:padding="30dp"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="5dp"
+
+                    >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:layout_margin="16dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Adobe Photoshop/XD"
+                            android:textSize="20sp"
+                            android:textStyle="bold"></TextView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="2+ years"
+                            android:textSize="12sp"
+                            android:textStyle="bold"></TextView>
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="20dp"
+
+                    android:padding="30dp"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="5dp"
+
+                    >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:layout_margin="16dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="UseCases/Lucid charts"
+                            android:textSize="20sp"
+                            android:textStyle="bold"></TextView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="3+ years"
+                            android:textSize="12sp"
+                            android:textStyle="bold"></TextView>
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+            </GridLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

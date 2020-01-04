@@ -6,15 +6,28 @@
     <color name="colorBlue">#3F51B5</color>
     <color name="colorDarkBlue">#303F9F</color>
     <color name="colorPink">#FF4081</color>
-    <color name="white">#ffff</color>
-    <color name="custom">#00ffc0</color>
+    <color name="colorWhite">#ffff</color>
+    <color name="colorCustom">#00ffc0</color>
     <color name="ColorRadio">#03A9F4</color>
 
-    <color name="menuPrimary">#795548</color>
-    <color name="menuPrimaryDark">#5D4037</color>
-    <color name="menuWhite">#ffffff</color>
-    <color name="menuDarkGray">#6c9c6c</color>
-    <color name="mainYellow">#ffc107</color>
-    <color name="mainYellowDark">#ffa000</color>
-    <color name="transparent">#c0c0c0</color>
+    <color name="colormenuPrimary">#795548</color>
+    <color name="colormenuPrimaryDark">#5D4037</color>
+    <color name="colormenuWhite">#ffffff</color>
+    <color name="colormenuDarkGray">#6c9c6c</color>
+    <color name="colormainYellow">#ffc107</color>
+    <color name="colormainYellowDark">#ffa000</color>
+    <color name="colortransparent">#c0c0c0</color>
+    <color name="colorpurpule">#800080</color>
+    <color name="colorOrange">#FF5733</color>
+
+    <color name="colorDarkYellow">#9A7D0A</color>
+    <color name="colorOrange">#FF5733</color>
+    <color name="colorOrange">#FF5733</color>
+
+
+
+
+
+
+
 </resources>

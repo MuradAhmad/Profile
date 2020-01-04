@@ -13,7 +13,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="270dp"
-        android:background="@color/mainYellow"
+        android:background="@color/colormainYellow"
         android:orientation="vertical"
         android:id="@+id/linearLayout">
 
@@ -199,6 +199,40 @@
 
 
     </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="25dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+
+
+        >
+        <ImageView
+
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/linkedin"
+            android:layout_marginLeft="10dp"
+
+
+            />
+        <ImageView
+            android:layout_marginLeft="50dp"
+
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/github"
+
+            />
+
+
+
+
+    </LinearLayout>
+
 
 </LinearLayout>
 
