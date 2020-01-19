@@ -95,7 +95,7 @@
                     android:layout_height="wrap_content"
                     android:text="Reserach assistant"
                     android:textStyle="bold"
-                    android:textSize="20sp"
+                    android:textSize="16sp"
                     android:layout_marginLeft="20dp"
                    >
                 </TextView>
@@ -112,13 +112,13 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="University of Oulu, Finland"
-                    android:textSize="18sp">
+                    android:textSize="14sp">
                 </TextView>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Android application development and thesis work"
-                    android:textSize="15sp"
+                    android:textSize="14sp"
                     android:gravity="center"
                     >
                 </TextView>
@@ -127,7 +127,7 @@
                     android:layout_height="wrap_content"
                     android:text="Research work"
                     android:textStyle="bold"
-                    android:textSize="18sp"
+                    android:textSize="14sp"
                     android:layout_marginTop="20dp"
                     android:layout_marginBottom="10dp">
                 </TextView>
@@ -135,9 +135,12 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="EXTREMA: A PORTABLE ASSESSMENT OF ASTHMA SYMPTOMS DUE TO EXTREME CLIMATE CHANGE."
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
 
-                    android:textSize="15sp"
-                    android:gravity="center">
+                    android:textSize="14sp"
+                    android:gravity="center"
+                    >
                 </TextView>
 
 
@@ -172,6 +175,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
+                    android:gravity="center_horizontal"
 
                     android:orientation="horizontal">
 
@@ -179,7 +183,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Junior mobile application developer (iOS)"
-                        android:textSize="15sp"
+                        android:textSize="14sp"
                         android:textStyle="bold"
 
                         ></TextView>
@@ -188,7 +192,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
-                        android:text="2018-2019"
+                        android:text="2013- 2014"
                         android:textSize="12sp">
 
                     </TextView>
@@ -200,7 +204,7 @@
                     android:layout_gravity="center_horizontal"
                     android:text="Swam Tech, Pakistan."
 
-                    android:textSize="15sp"></TextView>
+                    android:textSize="14sp"></TextView>
 
 
             </LinearLayout>
