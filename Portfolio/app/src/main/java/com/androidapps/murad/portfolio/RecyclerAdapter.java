@@ -1,25 +1,31 @@
 package com.androidapps.murad.portfolio;
 
 
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
+
+import com.google.android.material.snackbar.Snackbar;
 
 import androidx.recyclerview.widget.RecyclerView;
 
 public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHolder> {
 
     private String[] titles = {
-            "Chapter One",
-            "Chapter Two",
-            "Chapter Three",
-            "Chapter Four",
-            "Chapter Five",
-            "Chapter Six",
-            "Chapter Seven",
-            "Chapter Eight"};
+            "Portfolio",
+            "SmartAgriculture",
+            "Extrema",
+            "Diabetes Fitness",
+            "Calmify",
+            "Meet-up",
+            "TriggeredApp",
+            "ESLKidSongs",
+            "Smoking",
+            "Reservation"};
 
     private String[] details = {"Item one details",
             "Item two details", "Item three details",
@@ -54,6 +60,21 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHo
                     (TextView)itemView.findViewById(R.id.item_title);
             itemDetail =
                     (TextView)itemView.findViewById(R.id.item_detail);
+
+            itemView.setOnClickListener(new View.OnClickListener() {
+                @Override public void onClick(View v) {
+                    int position = getAdapterPosition();
+
+                    Snackbar.make(v, "Click detected on item " + position,
+                            Snackbar.LENGTH_LONG)
+                            .setAction("Action", null).show();
+
+
+
+                }
+            });
+
+
         }
     }
 
@@ -76,5 +97,8 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHo
     public int getItemCount() {
         return titles.length;
     }
+
+
+
 
 }
